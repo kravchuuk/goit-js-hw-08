@@ -1,0 +1,28 @@
+ul.gallery {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 24px 156px;
+  gap: 24px;
+  align-items: center;
+}
+
+.gallery-item {
+  width: 360px;
+  height: 200px;
+  margin-bottom: 24px;
+}
+
+.gallery-link {
+  text-decoration: none;
+}
+
+.gallery-img {
+  max-width: 100%;
+  height: auto;
+}
+
+.modal {
+  width: 1112px;
+  height: 640px;
+}
